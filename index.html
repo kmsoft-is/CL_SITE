@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="ROBOTS" content="INDEX,FOLLOW,ALL" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="no-cache" content="1" />
+		<meta http-equiv="Expires" content="-1" />
+		<title>CatLight</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<meta name="keywords" content="CatLight, Build, tray, TFS 2015, TFS, VSTS, XAML, Team Builds, Multiple accounts" />
+		<meta name="description" content="CatLight - Build status in your tray" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+
+
+		<!-- Flat icon css -->
+		<link rel="stylesheet" href="vendor/flat-icon/flaticon.css">
+		<link rel="stylesheet" href="vendor/flat-icon-sci/flaticon.css">
+		<link rel="stylesheet" href="vendor/flat-icon-ui/flaticon.css">
+		<link rel="stylesheet" href="vendor/flat-icon-c/flaticon.css">
+
+
+
+		<!-- Font awesome -->
+		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
+		<!-- Owl Carosel css -->
+
+		<link rel="stylesheet" href="vendor/owl/css/owl.carousel.css">
+		<link rel="stylesheet" href="vendor/owl/css/owl.theme.default.css">
+		<link rel="stylesheet" href="vendor/owl/css/owl.theme.css">
+
+
+		<!-- mmenu -->
+		<link type="text/css" rel="stylesheet" href="vendor/mmenu/css/jquery.mmenu.css" />
+
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+
+		<!-- Animate css -->
+
+		<link rel="stylesheet" href="css/___main.css">
+		<link rel="stylesheet" href="css/animate.css">
+
+		<!-- Custom Style css -->
+		<link rel="stylesheet" href="css/hover.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+
+
+	</head>
+	<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#404040" text="#CCCCCC" vlink="#DC6000" link="#DC6000" alink="#DC6000">
+		<header  class="header-part">
+			<div id="home" class="wrapper">
+				<!-- Fixed navbar -->
+
+				<div class="navbar navi navbar-fixed-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header page-scroll">
+							<a href="#menu">
+								<button type="button" data-effect="st-effect-1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</a>
+							<a class="navbar-brand" href="/" title="CatLight"><img id="hdrSLCL" src="img/logo.png" alt="CatLight" border="0" style="visibility:hidden; display:none;"></a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse pull-right hidden-xs">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a class="page-scroll" href="/download/">DOWNLOAD</a></li>
+								<li><a class="page-scroll" href="#screenshots">SCREENSHOTS</a></li>
+
+
+
+								<li class="dropdown"><a class="page-scroll drop dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://catlight.helprace.com">SUPPORT</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="http://catlight.helprace.com/s1-general/updates">Updates</a></li>
+										<li><a href="http://catlight.helprace.com/s1-general/knowledgebase/all">Knowledge base</a></li>
+										<li><a href="http://catlight.helprace.com/s1-general/questions/top">F.A.Q.</a></li>
+										<li><a href="http://catlight.helprace.com/s1-general/questions">Ask a question</a></li>
+										<li><a href="http://catlight.helprace.com/s1-general/ideas">Share an idea</a></li>
+										<li><a href="http://catlight.helprace.com/add-ticket">Leave a feedback</a></li>
+
+									</ul>
+								</li>
+
+								<li><a class="page-scroll" href="http://catlight.helprace.com/add-ticket">CONTACT</a></li>
+
+
+								<li></li>
+
+
+								<!-- Search Block  -->
+								<li>
+									<i class="search fa fa-search search-btn"></i>
+
+
+									<div class="search-open" style="display:none;" >
+										<div class="input-group animated fadeInDown" >
+
+
+											<input type="text" class="form-control" placeholder="Search" id="lnSrcFrmSFld" name="lnSrcFrmSFld">
+											<span class="input-group-btn"><button class="btn-u" type="button" onClick="lnSrcFrmSubmit();">Go</button></span>
+
+
+										</div>
+									</div>
+
+
+								</li>
+								<!--  End Search Block -->
+
+
+
+
+							</ul>
+
+						</div>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div><!-- End of Nav -->
+		</div>
+	</header>
+
+
+
+
+
+	<section id="main-slider" class="no-margin">
+		<div class="carousel slide">
+
+			<div class="carousel-inner">
+
+				<div class="item active" style="background-image: url(img/slider/bg1.jpg)">
+					<div class="container">
+						<div class="row slide-margin">
+							<div class="col-sm-6">
+
+								<div class="carousel-content">
+									<p><img src="img/hdr_cl_type.png" alt="CatLight" border="0"></p>
+									<p>&nbsp;</p>
+									<h2>Lights up in tray when a build needs attention</h2>
+
+									<a class="btn-slide" href="/download/" style="font-size: 16px;">
+										Download for Windows <i class="fa fa-windows"></i>
+									</a>
+
+
+
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div><!--/.item-->
+
+
+
+
+			</div><!--/.carousel-inner-->
+		</div><!--/.carousel-->
+
+
+	</section><!--/#main-slider-->
+
+
+	<div class="content-bground">
+
+		<!-- Key Features -->
+		<section id="about" class="who-we-are section-padding">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-xs-12 text-center p-padding" >
+						<h1 style="color: #ffffff; margin-bottom: 50px;">Monitor TFS Build Status</h1>
+					</div>
+				</div>
+					<a name="screenshots"></a>
+				<div class="row">
+
+
+					<div class="wow col-xs-12 col-sm-6 col-md-4 text-center">
+						<div class="icon-circle">
+							<i class="fa flaticon-concentric4"></i>
+						</div><!-- /.icon-circle -->
+						<div class="who-we-are-content text-center">
+							<h2 style="font-size : 26px; color : #ffffff;">XAML & new<br>Team Builds</h2>
+							<p style="font-size : 16px; color : #CCCCCC;">Catlight can monitor new Team builds (vNext) and XAML build definitions.</p>
+						</div><!-- /.who-we-are-content -->
+					</div><!-- /.col-xs-6 -->
+
+
+					<div class="wow col-xs-12 col-sm-6 col-md-4 text-center">
+						<div class="icon-circle">
+							<i class="fa flaticon-studiosymbol"></i>
+						</div><!-- /.icon-circle -->
+						<div class="who-we-are-content text-center">
+							<h2 style="font-size : 26px; color : #ffffff;">TFS 2015 or VSTS</h2>
+							<p style="font-size : 16px; color : #CCCCCC;">With CatLight, you can monitor builds in on-premise Team Foundation Server 2015 or hosted Visual Studio Team Services.</p>
+						</div><!-- /.who-we-are-content -->
+					</div><!-- /.col-xs-6 -->
+
+
+
+					<div class="wow col-xs-12 col-sm-6 col-md-4 text-center">
+						<div class="icon-circle">
+							<i class="fa flaticon-multiaccounts"></i>
+						</div><!-- /.icon-circle -->
+						<div class="who-we-are-content text-center">
+							<h2 style="font-size : 26px; color : #ffffff;">Multiple accounts</h2>							
+							<p style="font-size : 16px; color : #CCCCCC;">You can connect CatLight to multiple VSTS and TFS servers at the same time.</p>
+						</div><!-- /.who-we-are-content -->
+					</div>
+
+
+
+				</div><!--/row-->
+			</div><!-- /container -->
+		</section><!-- / Key Features -->
+		
+		
+
+		<section id="blcksel" style="color: white;">
+			<div class="container">
+
+
+
+			<!-- scrsht-wrapper 1 -->
+			<div class="row scrsht-wrapper" style="padding-bottom: 0px !important;">
+				
+
+				<!-- screenshot -->
+				<div class="col-sm-5 col-md-6" style="padding-right: 10px;" align="right">
+					<div id="grid" class="shuffle" style="position: relative; height: 400px;  width: 400px; margin-bottom: 20px !important;">
+
+
+						<!-- portfolio-item -->
+						<div class="portfolio-item shuffle-item filtered animated" style="margin:0; padding:0;">
+							<div class="portfolio">
+								<figure class="effect-julia">
+									<img src="img/screenshots/systemtray_1.jpg">
+									<figcaption>
+										<div class="socials">
+											<a data-toggle="modal" data-target="#myModal1" href=""><i class="fa fa-expand"></i></a>
+											<a href=""></a>
+										</div>
+										<div class="scoial-heading">
+											<p>Build status in tray</p>
+										</div>
+									</figcaption>
+								</figure>
+							</div><!-- /.portfolio -->
+						</div><!-- /.portfolio-item -->
+						<!-- MODAL/POPUP -->
+						<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" align="left">
+							<div class="modal-dialog" style="height: 600px; width: 698px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
+										<span class="modal-title" id="myModalLabel">Build status in tray</span>
+									</div>
+									<div class="modal-body">
+										<img src="img/screenshots/systemtray_1.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- MODAL/POPUP -->
+
+					</div>
+				</div>
+				<!-- / screenshot -->
+
+				<div class="col-sm-5 col-md-6" style="padding-left: 10px;">
+					<h1>Build status in tray</h1>
+					<p style="font-size : 16px; color : #CCCCCC;">
+						
+						See the current status of the builds in tray. 
+						CatLight will notify you when a build is broken by changing icon color. 
+					</p>
+				</div>
+
+
+			</div>
+			<!-- / scrsht-wrapper 1 -->
+			
+			<!-- scrsht-wrapper 2 -->
+			<div class="row scrsht-wrapper" style="padding-bottom: 0px !important;">
+
+				<!-- screenshot -->
+				<div class="col-sm-5 col-md-6" style="padding-right: 10px;" align="right">
+					<div id="grid" class="shuffle" style="position: relative; height: 400px;  width: 400px; margin-bottom: -30px !important;">
+
+
+						<!-- portfolio-item -->
+						<div class="portfolio-item shuffle-item filtered animated" style="margin:0; padding:0;">
+							<div class="portfolio">
+								<figure class="effect-julia">
+									<img src="img/screenshots/scrdialogs_1.jpg">
+									<figcaption>
+										<div class="socials">
+											<a data-toggle="modal" data-target="#myModal2" href=""><i class="fa fa-expand"></i></a>
+											<a href=""></a>
+										</div>
+										<div class="scoial-heading">
+											<p>Dashboard</p>
+										</div>
+									</figcaption>
+								</figure>
+							</div><!-- /.portfolio -->
+						</div><!-- /.portfolio-item -->
+						<!-- MODAL/POPUP -->
+						<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" align="left">
+							<div class="modal-dialog" style="height: 600px; width: 698px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
+										<span class="modal-title" id="myModalLabel">Dashboard</span>
+									</div>
+									<div class="modal-body">
+										<img src="img/screenshots/scrdialogs_1.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- MODAL/POPUP -->
+
+					</div>
+				</div>
+				<!-- / screenshot -->
+
+				<div class="col-sm-5 col-md-6" style="padding-left: 10px;">
+					<h1>Dashboard</h1>
+					<p style="font-size : 16px; color : #CCCCCC;">
+						Shows the current status of the builds.
+						See who broke the build first, and when the last build was attempted.
+					</p>
+				</div>
+
+
+			</div>
+			<!-- / scrsht-wrapper 2 -->
+
+			<!-- scrsht-wrapper 3 -->
+			<div class="row scrsht-wrapper" style="padding-bottom: 0px !important;">
+
+				<!-- screenshot -->
+				<div class="col-sm-5 col-md-6" style="padding-right: 10px;" align="right">
+					<div id="grid" class="shuffle" style="position: relative; height: 400px;  width: 400px; margin-bottom: -30px !important;">
+
+
+						<!-- portfolio-item -->
+						<div class="portfolio-item shuffle-item filtered animated" style="margin:0; padding:0;">
+							<div class="portfolio">
+								<figure class="effect-julia">
+									<img src="img/screenshots/scrdialogs_2.jpg">
+									<figcaption>
+										<div class="socials">
+											<a data-toggle="modal" data-target="#myModal3" href=""><i class="fa fa-expand"></i></a>
+											<a href=""></a>
+										</div>
+										<div class="scoial-heading">
+											<p>Choose builds</p>
+										</div>
+									</figcaption>
+								</figure>
+							</div><!-- /.portfolio -->
+						</div><!-- /.portfolio-item -->
+						<!-- MODAL/POPUP -->
+						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" align="left">
+							<div class="modal-dialog" style="height: 600px; width: 698px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
+										<span class="modal-title" id="myModalLabel">Choose builds</span>
+									</div>
+									<div class="modal-body">
+										<img src="img/screenshots/scrdialogs_2.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- MODAL/POPUP -->
+
+					</div>
+				</div>
+				<!-- / screenshot -->
+				
+					<div class="col-sm-5 col-md-6" style="padding-left: 10px;" align="left">
+					<h1>Choose builds</h1>
+					<p style="font-size : 16px; color : #CCCCCC;">
+						Choose build definitions to monitor. CatLight supports XAML and vNext Team Builds.
+					</p>
+
+				</div>
+				
+				
+			</div>
+			<!-- / scrsht-wrapper 3 -->
+
+			<!-- scrsht-wrapper 4 -->
+			<div class="row scrsht-wrapper" style="padding-bottom: 0px !important;">
+
+				<!-- screenshot -->
+				<div class="col-sm-5 col-md-6" style="padding-right: 10px;" align="right">
+					<div id="grid" class="shuffle" style="position: relative; height: 400px;  width: 400px; margin-bottom: -30px !important;">
+
+
+						<!-- portfolio-item -->
+						<div class="portfolio-item shuffle-item filtered animated" style="margin:0; padding:0;">
+							<div class="portfolio">
+								<figure class="effect-julia">
+									<img src="img/screenshots/scrdialogs_3.jpg">
+									<figcaption>
+										<div class="socials">
+											<a data-toggle="modal" data-target="#myModal4" href=""><i class="fa fa-expand"></i></a>
+											<a href=""></a>
+										</div>
+										<div class="scoial-heading">
+											<p>Connect to TFS or VSTS</p>
+										</div>
+									</figcaption>
+								</figure>
+							</div><!-- /.portfolio -->
+						</div><!-- /.portfolio-item -->
+						<!-- MODAL/POPUP -->
+						<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" align="left">
+							<div class="modal-dialog" style="height: 600px; width: 698px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
+										<span class="modal-title" id="myModalLabel">Connect to TFS or VSTS</span>
+									</div>
+									<div class="modal-body">
+										<img src="img/screenshots/scrdialogs_3.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- MODAL/POPUP -->
+
+					</div>
+				</div>
+				<!-- / screenshot -->
+
+				<div class="col-sm-5 col-md-6" style="padding-left: 10px;">
+					<h1>Connect to TFS or VSTS</h1>
+					<p style="font-size : 16px; color : #CCCCCC;">
+						CatLight can monitor builds for TFS 2015 and Visual Studio Online (VSTS).
+						You can connect to mulitple services at the same time.
+					</p>
+				</div>
+			</div>
+
+			<!-- / scrsht-wrapper 4 -->
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+</div><!-- / content-bground -->
+<!-- ______________________________________________________________________________________ -->
+
+<!-- footer -->
+
+<footer >
+	<div class="footer-wrapper section-padding">
+		<div class="container">
+
+
+
+
+			<div class="row">
+				<div class="wow col-xs-12 col-sm-6 col-md-3">
+					<a href="/"><img src="img/footer-logo.png" alt="CatLight" border="0"></a>
+					<p class="footer-content">
+						Build status in your tray.<br>
+						Works with TFS 2015 and VSTS.<br>
+						Monitors new Team builds (vNext) and XAML build definitions.
+					</p>
+					<br>
+
+
+					<div class="icon-holder" align="left">
+						<ul>
+							<li><a href="https://www.facebook.com/catlightio" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="https://twitter.com/catlightio" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+						</ul>
+					</div><!-- /.icon-holder -->
+
+
+				</div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+
+
+
+
+
+
+				<!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+				<div class="wow col-xs-12 col-sm-3 col-md-3">
+					<p class="footer-heading">Support</p>
+					<ul class="footermenu">
+
+						<li><a  href="http://catlight.helprace.com/s1-general/updates">Updates</a></li>
+						<li><a  href="http://catlight.helprace.com/s1-general/knowledgebase/all">Knowledge base</a></li>
+						<li><a  href="http://catlight.helprace.com/s1-general/questions/top">F.A.Q.</a></li>
+						<li><a  href="#blog">Blog</a></li>
+
+					</ul>
+				</div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+				<div class="wow col-xs-12 col-sm-6 col-md-3">
+					<p class="footer-heading">Contact</p>
+					<ul class="footercontact">
+						<li><i class="flaticon-bell70"></i><span>Questions: </span><a href="http://catlight.helprace.com/s1-general/questions"> Ask a question</a></li>
+						<li><i class="flaticon-lightningbolt1"></i><span>Ideas: </span><a href="http://catlight.helprace.com/s1-general/ideas"> Share an idea</a></li>
+						<li><i class="flaticon-speech56"></i><span>Feedback:</span><a href="http://catlight.helprace.com/add-ticket"> Leave a feedback</a></li>
+						<li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:support@catlight.io"> support@catlight.io</a></li>
+					</ul>
+					<i class="flaticon-home78"></i>
+				</div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+				<div class="wow col-xs-12 col-sm-6 col-md-3">
+
+
+
+
+					<p class="footer-heading">Powered By</p>
+					<ul class="footerblog">
+						<li><a href="http://electron.atom.io">Electron</a></li>
+						<li><a href="https://docs.asp.net/en/latest/conceptual-overview/dotnetcore.html">.Net Core</a></li>
+					</ul>
+
+
+
+				</div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="wow col-xs-12">
+					<p style="color: #CAC4C2 !important;">© 2016 CatLight.io</p>
+					<div class="backtop  pull-right">
+						<i class="fa fa-angle-up back-to-top"></i>
+					</div><!-- /.backtop -->
+				</div><!-- /.col-xs-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.creditwrapper -->
+</footer><!-- /Footer -->
+
+
+<!-- MMENU -->
+<nav id="menu">
+	<ul>
+		<li><a href="#">home</a></li>
+		<li><a href="/download/">Download</a></li>
+		<li><a href="#screenshots">Screenshots</a></li>
+		<li><a href="#support">Support</a>
+			<ul>
+				<li><a href="http://catlight.helprace.com/s1-general/updates">Product updates</a></li>
+				<li><a href="http://catlight.helprace.com/s1-general/questions/top">Frequently Asked Questions</a></li>
+				<li><a href="http://catlight.helprace.com/s1-general/knowledgebase/all">Knowledge base</a></li>
+				<li><a href="http://catlight.helprace.com/s1-general/problems">Report a problem</a></li>
+				<li><a href="http://catlight.helprace.com/s1-general/questions">Ask a question</a></li>
+				<li><a href="http://catlight.helprace.com/s1-general/ideas">Share an idea</a></li>
+			</ul>
+		</li>
+		<li><a href="#contact">contact</a></li>
+	</ul>
+</nav><!-- /#menu -->
+
+</div><!-- /.main -->
+
+
+
+
+<!-- jQuery JS -->
+<script src="js/jquery-1.11.1.js"></script>
+
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+
+<!--Bootatrap JS-->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- REVOLUTION Slider  -->
+<script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.revolution.js"></script>
+
+<!-- Shuffle JS -->
+<script src="js/jquery.shuffle.min.js"></script>
+
+<!-- mmenu -->
+<script type="text/javascript" src="vendor/mmenu/js/jquery.mmenu.min.js"></script>
+
+<!-- Owl Carosel -->
+<script src="vendor/owl/js/owl.carousel.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+
+<!-- waypoints JS-->
+<script src="js/waypoints.min.js"></script>
+
+<!-- Counterup JS -->
+<script src="js/jquery.counterup.min.js"></script>
+
+<!-- Easing JS -->
+<script src="js/jquery.easing.min.js"></script>
+
+
+<!-- Custom Script JS -->
+<script src="js/script.js"></script>
+
+
+
+<script>
+	
+	$(window).on('scroll', function(){
+	if( $(window).scrollTop()>600 ){
+	 /* $('.navbar-default').addClass('navbar-fixed-top'); */
+	   document.getElementById("hdrSLCL").style = "visibility:visible; display:true;";
+	  
+	} else {
+	  /* $('.navbar-default').removeClass('navbar-fixed-top'); */
+	   document.getElementById("hdrSLCL").style = "visibility:hidden; display:none;";
+	  
+	}
+	});
+	
+
+
+	function lnSrcFrmSubmit()
+	{
+		document.getElementById("lnSrcFrmInpFld").value = document.getElementById("lnSrcFrmSFld").value;
+		document.getElementById("lnSrcFrm").submit();
+	}
+
+
+</script>
+
+<form id="lnSrcFrm" method="get" action="http://catlight.helprace.com/search">
+	<input type="hidden" id="lnSrcFrmInpFld" name="q">
+</form>
+
+</body>
+</html>
